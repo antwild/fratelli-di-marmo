@@ -80,7 +80,15 @@ li {
   margin: 18px 0;
 }
 
-.row {
+.quote {
+  text-align: center;
+}
+
+.quote-btn {
+  padding: 10px 20px;
+  border-radius: 3px;
+  background-color: #80817D;
+  color: white;
 }
 
 .col {
@@ -101,23 +109,21 @@ li {
 #about-vp {
   background-image: linear-gradient(45deg, rgba(0,0,0,0.1) 10%, rgba(0,0,0,0.4) 40%), url("assets/venetian.jpg");
   background-size: cover;
-  transition: 0.5s;
-
+  padding: 0;
 }
 
 #about-vp:hover {
   background-image: linear-gradient(45deg, rgba(0,0,0,0.0) 10%, rgba(0,0,0,0.0) 40%), url("assets/venetian.jpg");
-  transition: 0.5s;
 }
 
 #about-mc {
   background-image: linear-gradient(45deg, rgba(0,0,0,0.1) 10%, rgba(0,0,0,0.4) 40%), url("assets/cement.jpg");
   background-size: cover;
+  padding: 0;
 }
 
 #about-mc:hover {
   background-image: linear-gradient(45deg, rgba(0,0,0,0.0) 10%, rgba(0,0,0,0.0) 40%), url("assets/cement.jpg");
-  background-size: cover;
 }
 
 .link {
@@ -131,4 +137,10 @@ li {
   text-decoration: none;
   color: black;
   transition: 0.3s;
+}
+
+#footer {
+  width: 100%;
+  height: 20vh;
+  background-color: #80817D;
 }
