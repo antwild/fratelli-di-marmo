@@ -5,16 +5,25 @@
   <title>Fratelli Di Marmo</title>
   <link rel="stylesheet" href="slideshow.css">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="dropdown.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
 </head>
 <body>
   <div class="topnav fixed-top">
     <img src="assets/logo.png" alt="Logo" id="nav-logo"></li>
     <ul class="nav-links">
-      <li>Home</li>
-      <li>About</li>
-      <li>Gallery</li>
-      <li>Contact</li>
+      <a href="#"><li class="navs">Home</li></a>
+      <div class="dropdown">
+        <a onclick="dropdown()" class="dropbtn navs">About <i class="fas fa-sort-down"></i></a>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="#">About us</a>
+          <a href="#">Venetian Plasting</a>
+          <a href="#">Micro Cement</a>
+        </div>
+      </div>
+      <a href=""><li class="navs">Gallery</li></a>
+      <a href=""><li class="navs">Contact</li></a>
     </ul>
   </div>
   <div class="home-banner">

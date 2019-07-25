@@ -30,9 +30,14 @@
   float: right;
 }
 
-li {
+.navs {
+  color: white;
   display: inline;
   padding: 0 30px;
+}
+
+.nav-links > a:hover {
+  text-decoration: none;
 }
 
 .container {
@@ -102,9 +107,7 @@ li {
   justify-content: center;
 }
 
-.white {
-  color: white;
-}
+.white {color:white;}
 
 #about-vp {
   background-image: linear-gradient(45deg, rgba(0,0,0,0.1) 10%, rgba(0,0,0,0.4) 40%), url("assets/venetian.jpg");
