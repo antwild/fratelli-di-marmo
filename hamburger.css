@@ -1,0 +1,61 @@
+/* Change the color of links on hover */
+.hamburger a:not(.active):hover {
+  color: gold;
+  border-radius: 5px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.hamburger a.active {
+  color: gold;
+  border-radius: 5px;
+}
+
+.icon {
+  margin: 40px 10px 0 0;
+}
+
+/* Hide the link that should open and close the hamburger on small screens */
+.hamburger .icon {
+  display: none;
+}
+
+@media (max-width: 1014px) {
+  #logo {
+    padding-left: 5vw!important;
+  }
+}
+
+@media (max-width: 950px) {
+  .hamburger a {
+    padding: 14px 3vw;
+  }
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the hamburger (.icon) */
+@media screen and (max-width: 750px) {
+  .hamburger a {display: none;}
+  .social a {display: none;}
+  .hamburger a.icon {
+    text-align: center;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the hamburger with JavaScript when the user clicks on the icon. This class makes the hamburger look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 750px) {
+  .hamburger.responsive {position: relative;}
+  .hamburger.responsive a.icon {
+    text-align: center;
+  }
+  .hamburger.responsive a {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+
+  .hamburger.responsive .smallSocial {
+    float: none;
+    display: inline;
+  }
+}

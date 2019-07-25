@@ -65,5 +65,15 @@ window.onclick = function(event) {
   }
 }
 
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function hamburger() {
+  var x = document.getElementById("my-hamburger");
+  if (x.className === "hamburger") {
+    x.className += " responsive";
+  } else {
+    x.className = "hamburger";
+  }
+}
+
 showSlides(slideIndex);
 initUpdateNavbarOnScroll();

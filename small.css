@@ -8,8 +8,8 @@
     padding: 0;
   }
 
-  .topnav li {
-    /*color: green;*/
+  .topnav .navs {
+    padding: 0;
   }
 }
 

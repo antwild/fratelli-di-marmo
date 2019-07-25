@@ -8,28 +8,37 @@
   <link rel="stylesheet" href="small.css">
   <link rel="stylesheet" href="dropdown.css">
   <link rel="stylesheet" href="slideshow.css">
+  <link rel="stylesheet" href="hamburger.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
 </head>
 <body>
   <div class="topnav fixed-top">
     <a href="home.html"><img src="assets/logo.png" alt="Logo" id="nav-logo"></a>
-    <ul class="nav-links">
-      <a href="home.html"><li class="navs">Home</li></a>
-      <div class="dropdown">
-        <a onclick="dropdown()" class="dropbtn navs"><li class="navs">
-          About <i class="fas fa-sort-down"></i>
-        </li></a>
-        <div id="myDropdown" class="dropdown-content">
-          <a href="about.html">About us</a>
-          <a href="venetian.html">Venetian Plasting</a>
-          <a href="cement.html">Micro Cement</a>
+
+    <div class="hamburger" id="my-hamburger">
+      <a href="javascript:void(0);" class="icon" onclick="hamburger()">&#9776;</a>
+      <ul class="nav-links">
+        <a href="home.html"><li class="navs">Home</li></a>
+        <div class="dropdown">
+          <a onclick="dropdown()" class="dropbtn navs"><li class="navs">
+            About <i class="fas fa-sort-down"></i>
+          </li></a>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="about.html">About us</a>
+            <a href="venetian.html">Venetian Plasting</a>
+            <a href="cement.html">Micro Cement</a>
+          </div>
         </div>
-      </div>
-      <a href=""><li class="navs">Gallery</li></a>
-      <a href=""><li class="navs">Contact</li></a>
-    </ul>
+        <a href=""><li class="navs">Gallery</li></a>
+        <a href=""><li class="navs">Contact</li></a>
+      </ul>
+
+    </div>
+
   </div>
+
+
   <div class="home-banner">
     <div class="home-banner-text">
       <h1 class="main-header">Fratelli Di Marmo</h1>
