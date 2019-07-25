@@ -3,9 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <title>Fratelli Di Marmo</title>
-  <link rel="stylesheet" href="slideshow.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="small.css">
   <link rel="stylesheet" href="dropdown.css">
+  <link rel="stylesheet" href="slideshow.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
 </head>
@@ -15,7 +17,9 @@
     <ul class="nav-links">
       <a href="home.html"><li class="navs">Home</li></a>
       <div class="dropdown">
-        <a onclick="dropdown()" class="dropbtn navs">About <i class="fas fa-sort-down"></i></a>
+        <a onclick="dropdown()" class="dropbtn navs"><li class="navs">
+          About <i class="fas fa-sort-down"></i>
+        </li></a>
         <div id="myDropdown" class="dropdown-content">
           <a href="about.html">About us</a>
           <a href="venetian.html">Venetian Plasting</a>
