@@ -4,9 +4,12 @@
     height: 60px;
   }
 
+  .link-background {
+    background-color: #eee;
+  }
+
   .nav-links {
     padding: 0;
-    /*background-color: #eee;*/
   }
 
   .topnav .navs {
