@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Fratelli Di Marmo - Venetian Plastering</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="stylesheets/index.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
@@ -10,21 +11,39 @@
 <body>
   <div class="topnav fixed-top">
     <a href="home.html"><img src="assets/logo.png" alt="Logo" id="nav-logo"></a>
-    <ul class="nav-links">
-      <a href="home.html"><li class="navs">Home</li></a>
-      <div class="dropdown">
-        <a onclick="dropdown()" class="dropbtn navs">About <i class="fas fa-sort-down"></i></a>
-        <div id="myDropdown" class="dropdown-content">
-          <a href="about.html">About us</a>
-          <a href="venetian.html">Venetian Plasting</a>
-          <a href="cement.html">Micro Cement</a>
+    <div class="hamburger" id="my-hamburger">
+      <a href="javascript:void(0);" class="icon" onclick="hamburger()">&#9776;</a>
+      <ul class="nav-links">
+        <a href="home.html" class="link-background"><li class="navs">Home</li></a>
+        <div class="dropdown">
+          <a onclick="dropdown()" class="dropbtn navs link-background"><li class="navs">
+            About <i class="fas fa-sort-down"></i>
+          </li></a>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="about.html">About us</a>
+            <a href="venetian.html">Venetian Plasting</a>
+            <a href="cement.html">Micro Cement</a>
+          </div>
         </div>
-      </div>
-      <a href=""><li class="navs">Gallery</li></a>
-      <a href=""><li class="navs">Contact</li></a>
-    </ul>
+        <a href="" class="link-background"><li class="navs">Gallery</li></a>
+        <a href="" class="link-background"><li class="navs">Contact</li></a>
+      </ul>
+    </div>
   </div>
-  <h1>About Venetian Plastering</h1>
+
+  <div class="container">
+
+
+    <div class="header-image">
+      <h1>About Venetian Plastering</h1>
+      <img src="assets/venetian.jpg" alt="">
+    </div>
+
+
+
+
+  </div>
+
   <script src="script.js"></script>
 </body>
 </html>
