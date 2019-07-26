@@ -100,7 +100,7 @@ body {
   color: white;
 }
 
-.col {
+.about-links {
   border: 1px solid black;
   height: 300px;
   color: white;
@@ -153,6 +153,10 @@ body {
   height: 20vh;
   background-color: #80817D;
   margin-top: 70px;
+}
+
+.phone-footer {
+  display: none!important;
 }
 
 .foot-container {

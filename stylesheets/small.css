@@ -1,4 +1,12 @@
 @media (max-width: 576px) {
+  .main-header, .sub-header, .content-header, .content {
+    text-align: center;
+  }
+
+  .home-banner-text {
+    padding-left: 0
+  }
+
   #nav-logo {
     width: 60px;
     height: 60px;
@@ -8,8 +16,20 @@
     background-color: #eee;
   }
 
+  #about-vp, #about-mc {
+    margin: 10px 0;
+  }
+
   .nav-links {
     padding: 0;
+  }
+
+  .about-links {
+    height: 200px;
+  }
+
+  .link {
+    line-height: 11;
   }
 
   .topnav .navs {
@@ -19,7 +39,7 @@
   .topnav {
     flex-direction: column;
     align-items: center;
-    padding-top: 20px!important;
+    padding-top: 20px;
   }
 
   .icon {
@@ -32,6 +52,45 @@
 
   #my-hamburger {
     height: 50px;
+  }
+
+  .laptop-social {
+    display: none!important;
+  }
+
+  .phone-footer {
+    display: block!important;
+  }
+
+  .foot-header {
+    display: none;
+  }
+
+  .foot-contact {
+    text-align: center;
+  }
+
+  .foot-social {
+    width: 200px!important;
+  }
+
+  .socials {
+    font-size: larger;
+  }
+
+  .small-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .social-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    font-size: 20px;
   }
 }
 

@@ -1,0 +1,9 @@
+@media (max-width: 768px) {
+  .link {
+    font-size: larger;
+    line-height: 15;
+  }
+  #gypsum {
+    width: 130px;
+  }
+}
