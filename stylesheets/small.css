@@ -1,0 +1,34 @@
+@media (max-width: 576px) {
+  #nav-logo {
+    width: 60px;
+    height: 60px;
+  }
+
+  .nav-links {
+    padding: 0;
+    /*background-color: #eee;*/
+  }
+
+  .topnav .navs {
+    padding: 0;
+  }
+
+  .topnav {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px!important;
+  }
+
+  .icon {
+    margin: 0;
+  }
+
+  .dropdown {
+    width: 100vw;
+  }
+
+  #my-hamburger {
+    height: 50px;
+  }
+}
+
